@@ -24,6 +24,14 @@ jobs:
     steps:
       - checkout
 
+      - run:
+          name: Install Build Essential
+          command: sudo apt-get update && sudo apt-get -y install build-essential
+      
+      - run:
+          name: Install Cmake
+          command: sudo apt-get install -y cmake
+
       # Download and cache dependencies
       - restore_cache:
           keys:
