@@ -4,7 +4,7 @@
   "description": "An app that will link to xlsx-util to show us whether or not it is easy to install and use the package.",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "CI=true node ./node_modules/jest/bin/jest.js --env=jsdom --no-cache"
   },
   "keywords": [
     "test"
