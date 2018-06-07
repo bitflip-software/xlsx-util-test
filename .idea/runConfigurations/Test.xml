@@ -1,0 +1,15 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Test" type="JavaScriptTestRunnerJest" factoryName="Jest">
+    <node-interpreter value="project" />
+    <node-options value="" />
+    <working-dir value="$PROJECT_DIR$/tests" />
+    <envs />
+    <scope-kind value="TEST" />
+    <test-file value="$PROJECT_DIR$/tests/basic.test.js" />
+    <test-names>
+      <test-name value="xlsx-util" />
+      <test-name value="basic test" />
+    </test-names>
+    <method />
+  </configuration>
+</component>

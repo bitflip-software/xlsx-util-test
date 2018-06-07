@@ -1,0 +1,18 @@
+{
+  "name": "xlsx-util-test",
+  "version": "0.0.1",
+  "description": "An app that will link to xlsx-util to show us whether or not it is easy to install and use the package.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Matthew James Briggs",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^23.1.0",
+    "xlsx-util": "^0.0.3"
+  }
+}
